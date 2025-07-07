@@ -1,0 +1,45 @@
+.filterContainer {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.header button {
+  margin-left: 10px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.departmentList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.departmentItem {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-left: 8px solid transparent;
+}
+
+.color0 { border-left-color: #FF6B6B; }
+.color1 { border-left-color: #4ECDC4; }
+.color2 { border-left-color: #F7B801; }
+.color3 { border-left-color: #9D4EDD; }
+.color4 { border-left-color: #00B4D8; }
+.color5 { border-left-color: #F3722C; }
+.color6 { border-left-color: #43AA8B; }

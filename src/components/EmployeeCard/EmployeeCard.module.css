@@ -1,0 +1,26 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+
+.deleteButton{
+  background-color: rgb(230, 52, 52);
+}
+
+.editButton{
+  background-color: rgb(255, 205, 111);
+}

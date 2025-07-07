@@ -1,0 +1,36 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+  width: 80%;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.sortControls {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  width: 100%;
+}
+
+.sortControls button {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  display: flex;
+  width: 16%;
+}
+
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
